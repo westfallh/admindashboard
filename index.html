@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="nav-section nav-dashboard">
+          <div class="nav-link">
+            <img src="./imgs/icon-dashboard.svg" alt="Dashboard Icon" class="nav-icon-dashboard" />
+            <h1 class="nav-text-header">Dashboard</h1>
+          </div>
+        </div>
+  
+        <div class="nav-section nav-main">
+          <div class="nav-link">
+            <img src="./imgs/icon-home.svg" alt="Home Icon" class="nav-icon" />
+            <p class="nav-text">Home</p>
+          </div>
+          <div class="nav-link">
+            <img src="./imgs/icon-profile.svg" alt="Profile Icon" class="nav-icon" />
+            <p class="nav-text">Profile</p>
+          </div>
+          <div class="nav-link">
+            <img src="./imgs/icon-messages.svg" alt="Messages Icon" class="nav-icon" />
+            <p class="nav-text">Messages</p>
+          </div>
+          <div class="nav-link">
+            <img src="./imgs/icon-history.svg" alt="History Icon" class="nav-icon" />
+            <p class="nav-text">History</p>
+          </div>
+          <div class="nav-link">
+            <img src="./imgs/icon-tasks.svg" alt="Tasks Icon" class="nav-icon" />
+            <p class="nav-text">Tasks</p>
+          </div>
+          <div class="nav-link">
+            <img src="./imgs/icon-communities.svg" alt="Communities Icon" class="nav-icon" />
+            <p class="nav-text">Communities</p>
+          </div>
+        </div>
+  
+        <div class="nav-section nav-settings">
+          <div class="nav-link">
+            <img src="./imgs/icon-settings.svg" alt="Settings Icon" class="nav-icon" />
+            <p class="nav-text">Settings</p>
+          </div>
+          <div class="nav-link">
+            <img src="./imgs/icon-support.svg" alt="Support Icon" class="nav-icon" />
+            <p class="nav-text">Support</p>
+          </div>
+          <div class="nav-link">
+            <img src="./imgs/icon-privacy.svg" alt="Privacy Icon" class="nav-icon" />
+            <p class="nav-text">Privacy</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Main Content Area -->
+      <div class="main">
+        <!-- Header -->
+        <header class="header">
+          <div class="search-bar">
+            <img src="./imgs/icon-search.svg" alt="Search Icon" class="icon" />
+            <input type="text" placeholder="Search" />
+          </div>
+          <div class="header-right">
+            <img src="./imgs/icon-bell.svg" alt="Notifications Icon" class="icon" />
+            <img src="./imgs/icon-avatar.svg" alt="User Avatar" class="avatar" />
+            <p class="username">Morgan Oakley</p>
+          </div>
+        </header>
+  
+        <!-- Subheader -->
+        <div class="subheader">
+          <div class="user-info">
+            <img src="./imgs/icon-avatar.svg" alt="User Avatar" class="avatar-lg" />
+            <div class="greeting">
+              <p>Hi there,</p>
+              <h2>Morgan Oakley (@morgan)</h2>
+            </div>
+          </div>
+          <div class="header-buttons">
+            <button class="btn">New</button>
+            <button class="btn">Upload</button>
+            <button class="btn">Share</button>
+          </div>
+        </div>
+  
+        <!-- Content Section -->
+        <div class="content">
+          <!-- Projects Panel -->
+          <section class="projects-panel">
+            <h3 class="section-title">Your Projects</h3>
+            <div class="projects-grid">
+              <!-- Repeat this .project-card block for each project -->
+              <div class="project-card">
+                <h4>Super Cool Project</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="card-actions">
+                  <img src="./imgs/icon-star.svg" alt="Star" />
+                  <img src="./imgs/icon-eye.svg" alt="View" />
+                  <img src="./imgs/icon-share.svg" alt="Share" />
+                </div>
+              </div>
+              <!-- Add more project-card blocks here -->
+            </div>
+          </section>
+  
+          <!-- Announcements Panel -->
+          <aside class="announcements-panel">
+            <h3 class="section-title">Announcements</h3>
+            <div class="announcement">
+              <h4>Site Maintenance</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="announcement">
+              <h4>Updated Privacy Policy</h4>
+              <p>Dolor sit amet consectetur.</p>
+            </div>
+            <div class="announcement">
+              <h4>Community Guidelines</h4>
+              <p>New rules for better vibes.</p>
+            </div>
+          </aside>
+  
+          <!-- Trending Panel -->
+          <aside class="trending-panel">
+            <h3 class="section-title">Trending</h3>
+            <div class="trending-item">
+              <img src="./imgs/icon-avatar.svg" alt="User Avatar" class="avatar-sm" />
+              <div>
+                <p>@tegan</p>
+                <p>World Peace Builder</p>
+              </div>
+            </div>
+            <div class="trending-item">
+              <img src="./imgs/icon-avatar.svg" alt="User Avatar" class="avatar-sm" />
+              <div>
+                <p>@morgan</p>
+                <p>Super Cool Project</p>
+              </div>
+            </div>
+            <!-- Add more trending-item blocks if needed -->
+          </aside>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+</html>
